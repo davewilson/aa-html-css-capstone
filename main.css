@@ -1,0 +1,44 @@
+body {
+    background-color: #285188;
+}
+
+h1 {
+    font-family: 'Charm', cursive;
+    font-size: 60px;
+    text-align: center;
+    color: #c8a565
+}
+a {
+    text-decoration: solid;
+    color: #c8a565;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    border: 2px;
+    border-style: solid none;
+    border-color: #c8a565;
+}
+
+.one-by-four {
+    font-size: 20px;
+    padding: 5px;
+    color: ;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px 0px;
+}
+
+.article {
+    background-color: white;
+    border-radius: 12px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
