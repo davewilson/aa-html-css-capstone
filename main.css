@@ -8,12 +8,22 @@ h1 {
     text-align: center;
     color: #c8a565
 }
+
+p {
+    padding: 0px 0px 20px;
+}
+
 a {
     text-decoration: solid;
-    color: #c8a565;
     font-weight: bold;
 }
 
+li {
+    padding: 20px 0px;
+    text-align: center;
+    font-size: large;
+    list-style: none;
+}
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -25,7 +35,7 @@ a {
 .one-by-four {
     font-size: 20px;
     padding: 5px;
-    color: ;
+    color: #c8a565;
 }
 
 .banner {
