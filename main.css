@@ -24,6 +24,7 @@ li {
     font-size: large;
     list-style: none;
 }
+
 .navbar {
     display: flex;
     justify-content: space-around;
@@ -51,4 +52,86 @@ li {
     margin-left: auto;
     margin-right: auto;
     padding: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(2, 250px);
+    grid-gap: 50px 30px;
+    justify-content: center;
+}
+
+.grid-item {
+    overflow: hidden;
+}
+
+.grid-item-img {
+    width: 100%;
+    border-top: 5px solid #c8a565;
+}
+
+.formText {
+    display: grid;
+    justify-content: center;
+    font-size: larger;
+    color: red;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 20%;
+}
+
+fieldset {
+    background-color: white;
+    border-radius: 12px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    display: grid;
+    font-weight: bold;
+}
+
+legend {
+    border: 2px solid;
+    background-color: #c8a565;
+    border-radius: 4px;
+    padding: 0px 5px;
+    font-size: large;
+}
+
+input[type="text"] {
+    justify-content: center;
+    width: 250px;
+}
+
+label[for="fullName"],
+label[for="currentCity"],
+label[for="dvcQuestions"] {
+    display: grid;
+    width: 800px;
+    grid-row: 2;
+    padding-top: 20px;
+    padding-bottom: 2px;
+}
+
+input[type="checkbox"] {
+    width: 15px;
+    height: 15px;
+}
+
+textarea {
+    padding-top: 5px;
+    width: 600px;
+    height: 100px;
+}
+
+.submitButton {
+    display: flex;
+    padding-top: 20px;
+    justify-content: center;
 }

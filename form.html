@@ -13,9 +13,43 @@
             <a href="images.html" class="one-by-four">Images</a>
         </div>
 
+        <!-- This form will not perform any function and is created only as an example -->
+        <form action="form-handling-url" method="post">
+            <fieldset>
+                <legend>Disney Riviera Resort Survey</legend>
+
+                <div>
+                    <label for="fullName">First and Last Name</label>
+                    <input type="text" id="fullName" name="full_name">
+                </div>
+
+                <div>
+                    <label for="currentCity">Current City of Residence</label>
+                    <input type="text" id="currentCity" name="current_city">
+                </div>
+
+                <br />
+
+                <div>
+                    <input type="checkbox" id="currentMember" name="currentMember">
+                    <label for="currentMember">Check if you are currently a DVC member.</label>
+                </div>
+
+                <div>
+                    <label for="dvcQuestions">What questions do you have regarding the Disney Vacation Club or Disney's Riviera Resort?</label>
+                    <textarea id="dvcQuestions" name="dvcQuestions"></textarea>
+                </div>
+
+                <div class="submitButton">
+                    <button type="submit">Submit Survey</button>
+                </div>
+
+                <p class="formText">This form is non-functional and exists only as an example.</p>
+
+            </fieldset>
+        </form>
         <!--
         - HTML form with a minimum of:
-            - 1 fieldset
             - 3 inputs
                 - 2 text
                 - 1 checkbox
@@ -26,3 +60,12 @@
 
     </body>
 </html>
+
+
+<!--
+    Form Survey questions
+    Inputs: Name, Location, Currently DVC member
+    any questions about DVC or Riv?
+
+
+-->
